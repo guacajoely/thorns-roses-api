@@ -109,27 +109,32 @@
             "nurseryId": 1
         },
         {
-            "id": 1,
+            "id": 2,
             "distributorId": 2,
             "nurseryId": 1
         },
         {
-            "id": 2,
+            "id": 3,
+            "distributorId": 3,
+            "nurseryId": 1
+        },
+        {
+            "id": 4,
             "distributorId": 1,
             "nurseryId": 2
         },
         {
-            "id": 3,
+            "id": 5,
             "distributorId": 2,
             "nurseryId": 3
         },
         {
-            "id": 4,
+            "id": 6,
             "distributorId": 2,
             "nurseryId": 4
         },
         {
-            "id": 5,
+            "id": 7,
             "distributorId": 3,
             "nurseryId": 5
         }
@@ -152,6 +157,35 @@
             "markupPer": 0.20
         }
     ],
+
+    "retailerStock": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "retailerId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 2,
+            "retailerId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 3,
+            "retailerId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 1,
+            "retailerId": 2
+        },
+        {
+            "id": 5,
+            "distributorId": 1,
+            "retailerId": 3
+        }
+    ],
+
 
     "retailers": [
         {
@@ -178,22 +212,6 @@
             "state": "WV",
             "markupPer": 0.20
             
-        },
-        {
-            "id": 4,
-            "name": "Retailer 4",
-            "address": "100 Main St",
-            "city": "Huntington",
-            "state": "WV",
-            "markupPer": 0.20
-        },
-        {
-            "id": 5,
-            "name": "Retailer 5",
-            "address": "100 Main St",
-            "city": "Huntington",
-            "state": "WV",
-            "markupPer": 0.20
         }
     ]
 
