@@ -1,0 +1,182 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "rose",
+            "color": "red"
+        },
+        {
+            "id": 2,
+            "name": "gerbera",
+            "color": "pink"
+        },
+        {
+            "id": 3,
+            "name": "sunflower",
+            "color": "yellow"
+        },
+        {
+            "id": 4,
+            "name": "marigold",
+            "color": "orange"
+        },
+        {
+            "id": 5,
+            "name": "tulip",
+            "color": "purple"
+        }
+    ],
+
+    "nurseryStock": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 4,
+            "flowerId": 4
+        },
+        {
+            "id": 7,
+            "nurseryId": 5,
+            "flowerId": 1
+        },
+        {
+            "id": 8,
+            "nurseryId": 5,
+            "flowerId": 2
+        }
+    ],
+    
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Nursery 1"
+        },
+        {
+            "id": 2,
+            "name": "Nursery 2"
+        },
+        {
+            "id": 3,
+            "name": "Nursery 3"
+        },
+        {
+            "id": 4,
+            "name": "Nursery 4"
+        },
+        {
+            "id": 5,
+            "name": "Nursery 5"
+        }
+    ],
+
+    "distributorStock": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 5
+        }
+    ],
+
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Distributor 1"
+        },
+        {
+            "id": 2,
+            "name": "Distributor 2"
+        },
+        {
+            "id": 3,
+            "name": "Distributor 3"
+        }
+    ],
+
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Retailer 1",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Retailer 2",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Retailer 3",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Retailer 4",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 1
+        },
+        {
+            "id": 5,
+            "name": "Retailer 5",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 2
+        }
+    ]
+
+  }
