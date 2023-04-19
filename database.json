@@ -1,192 +1,191 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "email": "joel@joel.com"
-        }
-    ],
+  "customers": [
     
-    
-    "flowers": [
-        {
-            "id": 1,
-            "species": "rose",
-            "color": "red"
-        },
-        {
-            "id": 2,
-            "species": "marigold",
-            "color": "orange"
-        },
-        {
-            "id": 3,
-            "species": "sunflower",
-            "color": "yellow"
-        },
-        {
-            "id": 4,
-            "species": "gerbera",
-            "color": "pink"
-        },
-        {
-            "id": 5,
-            "species": "tulip",
-            "color": "purple"
-        }
-    ],
-
-    "nurseryStock": [
-        {
-            "id": 1,
-            "nurseryId": 1,
-            "flowerId": 1,
-            "price": 1.00
-
-        },
-        {
-            "id": 2,
-            "nurseryId": 2,
-            "flowerId": 2,
-            "price": 1.00
-        },
-        {
-            "id": 3,
-            "nurseryId": 3,
-            "flowerId": 3,
-            "price": 1.00
-        },
-        {
-            "id": 4,
-            "nurseryId": 4,
-            "flowerId": 4,
-            "price": 1.00
-        },
-        {
-            "id": 5,
-            "nurseryId": 5,
-            "flowerId": 5,
-            "price": 1.00
-        },
-        {
-            "id": 6,
-            "nurseryId": 1,
-            "flowerId": 4,
-            "price": 1.00
-        },
-        {
-            "id": 6,
-            "nurseryId": 1,
-            "flowerId": 5,
-            "price": 1.00
-        }
-    ],
-
-    "nurseries": [
-        {
-            "id": 1,
-            "name": "Nursery 1"
-        },
-        {
-            "id": 2,
-            "name": "Nursery 2"
-        },
-        {
-            "id": 3,
-            "name": "Nursery 3"
-        }
-    ],
-
-    "distributorStock": [
-        {
-            "id": 1,
-            "distributorId": 1,
-            "nurseryId": 1
-        },
-        {
-            "id": 2,
-            "distributorId": 2,
-            "nurseryId": 2
-        },
-        {
-            "id": 3,
-            "distributorId": 3,
-            "nurseryId": 3
-        }
-    ],
-
-    "distributors": [
-        {
-            "id": 1,
-            "name": "Distributor 1",
-            "markupPer": 1.50
-        },
-        {
-            "id": 2,
-            "name": "Distributor 2",
-            "markupPer": 1.20
-        },
-        {
-            "id": 3,
-            "name": "Distributor 3",
-            "markupPer": 1.20
-        }
-    ],
-
-    "retailerStock": [
-        {
-            "id": 1,
-            "distributorId": 1,
-            "retailerId": 1
-        },
-        {
-            "id": 2,
-            "distributorId": 2,
-            "retailerId": 2
-        },
-        {
-            "id": 3,
-            "distributorId": 3,
-            "retailerId": 3
-        },
-        {
-            "id": 4,
-            "distributorId": 2,
-            "retailerId": 1
-        },
-        {
-            "id": 5,
-            "distributorId": 3,
-            "retailerId": 1
-        }
-    ],
-
-
-    "retailers": [
-        {
-            "id": 1,
-            "name": "Retailer 1",
-            "address": "100 Main St",
-            "city": "Huntington",
-            "state": "WV",
-            "markupPer": 2
-        },
-        {
-            "id": 2,
-            "name": "Retailer 2",
-            "address": "100 Main St",
-            "city": "Huntington",
-            "state": "WV",
-            "markupPer": 1.50
-        },
-        {
-            "id": 3,
-            "name": "Retailer 3",
-            "address": "100 Main St",
-            "city": "Huntington",
-            "state": "WV",
-            "markupPer": 1.50
-            
-        }
-    ]
-
-  }
+    {
+      "id": 1,
+      "email": "joel@joel.com",
+      "password": "nantucket",
+      "fullName": "Joel Dick",
+      "businessName": "Joel's Flowers"
+    },
+    {
+      "email": "jimbo@jimbo.com",
+      "password": "Jankinz",
+      "fullName": "Jimbo Jenkins",
+      "businessName": "Jimbo's Flowers",
+      "id": 2
+    }
+  ],
+  "flowers": [
+    {
+      "id": 1,
+      "species": "rose",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "species": "marigold",
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "species": "sunflower",
+      "color": "yellow"
+    },
+    {
+      "id": 4,
+      "species": "gerbera",
+      "color": "pink"
+    },
+    {
+      "id": 5,
+      "species": "tulip",
+      "color": "purple"
+    }
+  ],
+  "nurseryStock": [
+    {
+      "id": 1,
+      "nurseryId": 1,
+      "flowerId": 1,
+      "price": 1
+    },
+    {
+      "id": 2,
+      "nurseryId": 2,
+      "flowerId": 2,
+      "price": 1
+    },
+    {
+      "id": 3,
+      "nurseryId": 3,
+      "flowerId": 3,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "nurseryId": 4,
+      "flowerId": 4,
+      "price": 1
+    },
+    {
+      "id": 5,
+      "nurseryId": 5,
+      "flowerId": 5,
+      "price": 1
+    },
+    {
+      "id": 6,
+      "nurseryId": 1,
+      "flowerId": 4,
+      "price": 1
+    },
+    {
+      "id": 6,
+      "nurseryId": 1,
+      "flowerId": 5,
+      "price": 1
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Nursery 1"
+    },
+    {
+      "id": 2,
+      "name": "Nursery 2"
+    },
+    {
+      "id": 3,
+      "name": "Nursery 3"
+    }
+  ],
+  "distributorStock": [
+    {
+      "id": 1,
+      "distributorId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "distributorId": 2,
+      "nurseryId": 2
+    },
+    {
+      "id": 3,
+      "distributorId": 3,
+      "nurseryId": 3
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "Distributor 1",
+      "markupPer": 1.5
+    },
+    {
+      "id": 2,
+      "name": "Distributor 2",
+      "markupPer": 1.2
+    },
+    {
+      "id": 3,
+      "name": "Distributor 3",
+      "markupPer": 1.2
+    }
+  ],
+  "retailerStock": [
+    {
+      "id": 1,
+      "distributorId": 1,
+      "retailerId": 1
+    },
+    {
+      "id": 2,
+      "distributorId": 2,
+      "retailerId": 2
+    },
+    {
+      "id": 3,
+      "distributorId": 3,
+      "retailerId": 3
+    },
+    {
+      "id": 4,
+      "distributorId": 2,
+      "retailerId": 1
+    },
+    {
+      "id": 5,
+      "distributorId": 3,
+      "retailerId": 1
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "Retailer 1",
+      "address": "100 Main St",
+      "city": "Huntington",
+      "state": "WV",
+      "markupPer": 2
+    },
+    {
+      "id": 2,
+      "name": "Retailer 2",
+      "address": "100 Main St",
+      "city": "Huntington",
+      "state": "WV",
+      "markupPer": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Retailer 3",
+      "address": "100 Main St",
+      "city": "Huntington",
+      "state": "WV",
+      "markupPer": 1.5
+    }
+  ]
+}
