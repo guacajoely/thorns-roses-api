@@ -7,8 +7,8 @@
         },
         {
             "id": 2,
-            "species": "gerbera",
-            "color": "pink"
+            "species": "marigold",
+            "color": "orange"
         },
         {
             "id": 3,
@@ -17,8 +17,8 @@
         },
         {
             "id": 4,
-            "species": "marigold",
-            "color": "orange"
+            "species": "gerberas ",
+            "color": "pink"
         },
         {
             "id": 5,
@@ -62,7 +62,7 @@
         {
             "id": 6,
             "nurseryId": 1,
-            "flowerId": 2,
+            "flowerId": 4,
             "price": 1.00
         },
         {
@@ -85,14 +85,6 @@
         {
             "id": 3,
             "name": "Nursery 3"
-        },
-        {
-            "id": 4,
-            "name": "Nursery 4"
-        },
-        {
-            "id": 5,
-            "name": "Nursery 5"
         }
     ],
 
@@ -111,16 +103,6 @@
             "id": 3,
             "distributorId": 3,
             "nurseryId": 3
-        },
-        {
-            "id": 4,
-            "distributorId": 1,
-            "nurseryId": 4
-        },
-        {
-            "id": 5,
-            "distributorId": 1,
-            "nurseryId": 5
         }
     ],
 
@@ -160,13 +142,13 @@
         },
         {
             "id": 4,
-            "distributorId": 1,
-            "retailerId": 2
+            "distributorId": 2,
+            "retailerId": 1
         },
         {
             "id": 5,
-            "distributorId": 1,
-            "retailerId": 3
+            "distributorId": 3,
+            "retailerId": 1
         }
     ],
 
