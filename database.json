@@ -37,44 +37,38 @@
         },
         {
             "id": 2,
-            "nurseryId": 1,
+            "nurseryId": 2,
             "flowerId": 2,
             "price": 1.00
         },
         {
             "id": 3,
-            "nurseryId": 2,
-            "flowerId": 3,
-            "price": 1.00
-        },
-        {
-            "id": 4,
-            "nurseryId": 2,
-            "flowerId": 4,
-            "price": 1.00
-        },
-        {
-            "id": 5,
             "nurseryId": 3,
             "flowerId": 3,
             "price": 1.00
         },
         {
-            "id": 6,
+            "id": 4,
             "nurseryId": 4,
             "flowerId": 4,
             "price": 1.00
         },
         {
-            "id": 7,
+            "id": 5,
             "nurseryId": 5,
-            "flowerId": 1,
+            "flowerId": 5,
             "price": 1.00
         },
         {
-            "id": 8,
-            "nurseryId": 5,
+            "id": 6,
+            "nurseryId": 1,
             "flowerId": 2,
+            "price": 1.00
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "flowerId": 5,
             "price": 1.00
         }
     ],
@@ -111,31 +105,21 @@
         {
             "id": 2,
             "distributorId": 2,
-            "nurseryId": 1
+            "nurseryId": 2
         },
         {
             "id": 3,
             "distributorId": 3,
-            "nurseryId": 1
+            "nurseryId": 3
         },
         {
             "id": 4,
             "distributorId": 1,
-            "nurseryId": 2
-        },
-        {
-            "id": 5,
-            "distributorId": 2,
-            "nurseryId": 3
-        },
-        {
-            "id": 6,
-            "distributorId": 2,
             "nurseryId": 4
         },
         {
-            "id": 7,
-            "distributorId": 3,
+            "id": 5,
+            "distributorId": 1,
             "nurseryId": 5
         }
     ],
@@ -144,17 +128,17 @@
         {
             "id": 1,
             "name": "Distributor 1",
-            "markupPer": 0.20
+            "markupPer": 1.20
         },
         {
             "id": 2,
             "name": "Distributor 2",
-            "markupPer": 0.20
+            "markupPer": 1.20
         },
         {
             "id": 3,
             "name": "Distributor 3",
-            "markupPer": 0.20
+            "markupPer": 1.20
         }
     ],
 
@@ -194,7 +178,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 0.20
+            "markupPer": 1.20
         },
         {
             "id": 2,
@@ -202,7 +186,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 0.20
+            "markupPer": 1.20
         },
         {
             "id": 3,
@@ -210,7 +194,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 0.20
+            "markupPer": 1.20
             
         }
     ]
