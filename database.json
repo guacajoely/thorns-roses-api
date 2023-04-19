@@ -1,4 +1,12 @@
 {
+    "users": [
+        {
+            "id": 1,
+            "email": "joel@joel.com"
+        }
+    ],
+    
+    
     "flowers": [
         {
             "id": 1,
