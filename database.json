@@ -160,7 +160,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 1.20
+            "markupPer": 1.50
         },
         {
             "id": 2,
@@ -168,7 +168,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 1.20
+            "markupPer": 1.50
         },
         {
             "id": 3,
@@ -176,7 +176,7 @@
             "address": "100 Main St",
             "city": "Huntington",
             "state": "WV",
-            "markupPer": 1.20
+            "markupPer": 1.50
             
         }
     ]
