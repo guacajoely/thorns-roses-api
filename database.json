@@ -1,6 +1,5 @@
 {
   "customers": [
-    
     {
       "id": 1,
       "email": "joel@joel.com",
@@ -81,7 +80,7 @@
       "price": 1
     },
     {
-      "id": 6,
+      "id": 7,
       "nurseryId": 1,
       "flowerId": 5,
       "price": 1
@@ -186,6 +185,26 @@
       "city": "Huntington",
       "state": "WV",
       "markupPer": 1.5
+    }
+  ],
+  "purchases": [
+    {
+      "customerId": 1,
+      "retailerId": 1,
+      "flowerId": 1,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "retailerId": 2,
+      "flowerId": 2,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "retailerId": 3,
+      "flowerId": 3,
+      "id": 3
     }
   ]
 }
